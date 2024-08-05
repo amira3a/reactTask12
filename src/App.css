@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./assets/images/bg-pattern-top.svg), url(./assets/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position:
+    top -425px left -250px, bottom -550px right -255px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 769px) {
+  body {
+    background-position:
+      top -650px left -450px, bottom -620px right -525px;
+  }
+}
